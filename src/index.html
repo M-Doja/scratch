@@ -8,11 +8,19 @@
   </head>
   <body>
     <div class="container" style="text-align:center;">
+          <!-- Header -->
       <h1>Code From Scratch</h1><br><br>
+
+          <!-- Input -->
       <p>Please enter your name below</p>
       <input class="textbox" type='text' id='userName'><br>
+      <input type='hidden' id='editUserName'>
+
+          <!-- Button -->
       <button class="btn btn-warning btn-sm" onclick="addName()">Press</button>
-      <div id="result"></div>
+
+        <!-- Display Area -->
+      <div style="float:left;"id="result"></div>
       <h1>Display Above Here</h1>
     </div>
 
